@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class="profile-card">
+    <section class="top">
+        <div class="pcontainer"> 
+            <img src="{{ url_for('static', filename='images/itawnya_walker.jpg')}}" alt="Picture of Itawnya Walker">
+            <h1>Itawnya Walker</h1>
+            <p>@itawnya</p>
+            <p>Kingston, Jamaica</p>
+            <p>Joined</p>
+        </div>
+    </section>
+
+    <section class="bottom">
+        <div class="pcontainer">
+            <P class="desc">I am a smart and talented young woman who loves website design and development. Contact me if you'd like to work together on a new project.</P>
+            <div class="sections">
+                <div class="posts"> 
+                    <p class="num"> 7</p>
+                    <p> Posts</p>
+                </div>
+                <div class="following"> 
+                    <p class="num"> 100</p>
+                    <p> Following</p>
+                </div>
+                <div class="followers"> 
+                    <p class="num"> 250</p>
+                    <p>Followers</p>
+                </div>
+            </div>
+
+            <button type="button"> Follow </button>
+        </div>
+    </section>
+</div>
+{% endblock %}

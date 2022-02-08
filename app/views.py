@@ -5,6 +5,7 @@ Werkzeug Documentation:  https://werkzeug.palletsprojects.com/
 This file creates your application.
 """
 
+from shutil import register_unpack_format
 from app import app
 from flask import render_template, request, redirect, url_for, flash
 
@@ -23,6 +24,10 @@ def home():
 def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
+
+@app.route('/profile')
+def profile():
+    return render_template('profile.html')
 
 
 ###

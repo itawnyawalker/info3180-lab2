@@ -11,7 +11,7 @@ body {
 }
 
 .top{
-    background-color: rgb(1, 105, 48);
+    background-color: rgb(3, 144, 187);
     line-height: 10px;
     width: 100%;
     height: max-content;
@@ -42,7 +42,7 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-    line-height: 2px;
+    line-height: 3px;
 }
 
 .posts{
@@ -76,9 +76,9 @@ h1 {
 button{
     width: 130px;
     height: 40px;
-    background-color: rgb(10, 214, 54);
+    background-color: rgb(25, 139, 233);
     color: white;
     border: none;
     border-radius: 10px;
-    box-shadow: 10px grey;
+    box-shadow: 1px 1px rgba(128, 128, 128, 0.596);
 }
